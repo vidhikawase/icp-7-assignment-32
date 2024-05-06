@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32-ass</title>
+</head>
+<body>
+    <script>
+        const phones = ['iphone','samsung','oppo','redmi'];
+        console.log(phones);
+
+        console.log('length of array phones is :',phones.length);
+
+        phones.push('motorola','honor','poco');
+        console.log(phones);
+
+        phones.pop('poco');
+        console.log(phones);
+
+        phones.shift();
+        console.log(phones);
+
+        phones.unshift('infinix');
+        console.log(phones);
+
+        console.log(phones.indexOf('oppo'));
+
+        console.log(phones.includes('samsung'));
+
+
+        console.log(Array.isArray(phones));
+
+        console.log(phones.reverse());
+
+        console.log(phones.sort());
+
+        console.log(phones.splice(1, 1));
+        console.log(phones);
+
+        console.log(phones.splice(1, 1, 'oppo'));
+        console.log(phones);
+    </script>
+</body>
+</html>
